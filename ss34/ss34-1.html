@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+          
+            border: 1px solid black;
+            width: 300px;
+            border-radius: 4px;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            color: gray;
+            margin: 0;
+            display: flex;
+            width: 80%;
+        }
+        input{
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        button{
+            width: 80%;
+            color: white;
+            margin-bottom: 30px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+    <div class="container">
+       <h1>Register</h1>
+       <form action="" onsubmit="submitForm(event)">
+        <p>Email:</p>
+    <input type="email"  id="email">
+    <p>Password:</p>
+    <input type="password" id="password">
+    <p>Confirm Password:</p>
+    <input type="password" id="passwordConfirm">
+    <br>
+    <button id="btn">Register</button>
+    <script src="./ss34-1.js"></script> 
+       </form>
+    
+    </div>
+    </div>
+   
+    
+</body>
+</html>
