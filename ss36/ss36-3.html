@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            gap: 20px;
+        }
+        .container-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .box {
+            display: flex;
+            justify-content: center;    
+            align-items: center;
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+        .red { color: white; background-color: red; }
+        .blue { color: white; background-color: blue; }
+        .yellow { color: black; background-color: yellow; }
+        .purple { color: white; background-color: purple; }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Chọn nền bạn thích</h1>
+        <div class="container-box">
+            <div class="box red" onclick="change('red')">red</div>
+            <div class="box blue" onclick="change('blue')">blue</div>
+            <div class="box yellow" onclick="change('yellow')">yellow</div>
+            <div class="box purple" onclick="change('purple')">purple</div> 
+        </div>
+    </div>
+
+    <script src="./ss36-3.js"></script>
+</body>
+</html>
